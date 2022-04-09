@@ -11,11 +11,13 @@ I handled the categorical features, filled the missing values and scaled the inp
 
 Later, I fit the model on the train dataset and predicted on the test dataset. The algorithm with the lowest rmse was the DecisionTreesRegressor.
 
-I finally plot some accuracy plots to better interpret the results that are also showed below:
+I finally plot some accuracy plots to better interpret the results are also showed below:
 
 **<p align="center"> Accuracy Plots - training </p>**
 
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/162548345-fef79534-82cd-4d34-9077-e8d269b1aeca.png" width="520" height="520"/>  </p>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/162548348-9407c42b-b6c8-43d7-9ee9-84b5a078b947.png" width="520" height="520"/>  </p>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62444785/162548352-5124b04d-5875-46de-ad78-438413ae9680.png" width="520" height="520"/>  </p>
