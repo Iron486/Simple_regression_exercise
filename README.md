@@ -4,7 +4,7 @@ The aim of this small project was the prediction of mid-career salary of the stu
 The notebook is the following: [datafrom_collegetuitiondiversityandpay_dataset.ipynb](https://github.com/Iron486/Simple_regression_exercise/blob/main/datafrom_collegetuitiondiversityandpay_dataset.ipynb) and I collected the data from here: https://www.kaggle.com/datasets/jessemostipak/college-tuition-diversity-and-pay.
 
 After downloading the 5 tables and loading them with `pandas`, I merged the 2 tables ([salary_potential](https://github.com/Iron486/Simple_regression_exercise/blob/main/salary_potential.csv),[tuition_cost](https://github.com/Iron486/Simple_regression_exercise/blob/main/tuition_cost.csv)) that were useful to extract the most information to predict the 
-```diff
+```
 - RED text
 + GREEN text
 ! ORANGE text
