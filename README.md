@@ -6,13 +6,13 @@ The notebook is the following: [datafrom_collegetuitiondiversityandpay_dataset.i
 After downloading the 5 tables and loading them with `pandas`, I merged the 2 tables ([salary_potential](https://github.com/Iron486/Simple_regression_exercise/blob/main/salary_potential.csv),[tuition_cost](https://github.com/Iron486/Simple_regression_exercise/blob/main/tuition_cost.csv)) that were useful to extract the most information to predict the 
 **mid-career salary**.
 
-Once I did that, I extracted the most important features basing on a simple calculation of the correlation coefficients for each extracted feature.
+Once I did that, I extracted the most important features, calculating in descending order the correlation coefficients for all the features.
 
 I handled the categorical features, filled the missing values and scaled the input features.
 
 Later, I fit the model on the train dataset and predicted on the test dataset. The algorithm with the lowest `rmse` was the `DecisionTreesRegressor`.
 
-I finally plot some accuracy plots to better interpret the results are also showed below:
+I finally plot some accuracy plots to better interpret the results are also shown below:
 
 **<p align="center"> Accuracy Plots - training </p>**
 
